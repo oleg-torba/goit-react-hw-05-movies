@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
-import { FetchDetails } from "Services/FetchDetails";
+import FetchDetails  from "Services/FetchDetails";
 import { useParams } from "react-router-dom"
+import { Link } from "react-router-dom";
+import MovieList from '../MovieList/MovieList'
 
 
 const MovieDetails = () => {
@@ -9,12 +11,15 @@ const MovieDetails = () => {
   
 
     useEffect(()=>{
-        const fetch = FetchDetails(movieId)
-        fetch.then(setMovie)
+        FetchDetails(movieId).then(res=>{
+setMovie(res)
+        })
     }, [movieId])
-   console.log(movieId)
+
   return (
-    <p>Details</p>
+    <><Link>Go back</Link><MovieList movie={movie} /></>
+    
+  
   )
   
 }

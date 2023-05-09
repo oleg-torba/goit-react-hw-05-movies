@@ -23,16 +23,15 @@ const Home = () => {
     }, [])
     console.log(movies)
     return (
-        <div>
-         {movies.map((item)=>{
-        console.log(item)
-      return (
-      <Link> <li>
-      {item.title}
-  </li></Link>
-     )  
-    })}
-        </div>
+      <><h2>Trending today</h2><div>
+        {movies.map((item) => {
+          return (
+            <Link> <li key={item.id}>
+              {item.title}
+            </li></Link>
+          );
+        })}
+      </div></>
     )
 }
 
