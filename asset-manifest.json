@@ -1,13 +1,25 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-05-movies/static/css/main.7acaea2f.css",
-    "main.js": "/goit-react-hw-05-movies/static/js/main.1c68a167.js",
+    "main.css": "/goit-react-hw-05-movies/static/css/main.9cf20676.css",
+    "main.js": "/goit-react-hw-05-movies/static/js/main.d386973b.js",
+    "static/js/668.3b62471a.chunk.js": "/goit-react-hw-05-movies/static/js/668.3b62471a.chunk.js",
+    "static/js/785.3a88c3c1.chunk.js": "/goit-react-hw-05-movies/static/js/785.3a88c3c1.chunk.js",
+    "static/js/254.59100202.chunk.js": "/goit-react-hw-05-movies/static/js/254.59100202.chunk.js",
+    "static/js/800.fe577d52.chunk.js": "/goit-react-hw-05-movies/static/js/800.fe577d52.chunk.js",
+    "static/js/903.f5bc0004.chunk.js": "/goit-react-hw-05-movies/static/js/903.f5bc0004.chunk.js",
+    "static/js/279.2c004ea1.chunk.js": "/goit-react-hw-05-movies/static/js/279.2c004ea1.chunk.js",
     "index.html": "/goit-react-hw-05-movies/index.html",
-    "main.7acaea2f.css.map": "/goit-react-hw-05-movies/static/css/main.7acaea2f.css.map",
-    "main.1c68a167.js.map": "/goit-react-hw-05-movies/static/js/main.1c68a167.js.map"
+    "main.9cf20676.css.map": "/goit-react-hw-05-movies/static/css/main.9cf20676.css.map",
+    "main.d386973b.js.map": "/goit-react-hw-05-movies/static/js/main.d386973b.js.map",
+    "668.3b62471a.chunk.js.map": "/goit-react-hw-05-movies/static/js/668.3b62471a.chunk.js.map",
+    "785.3a88c3c1.chunk.js.map": "/goit-react-hw-05-movies/static/js/785.3a88c3c1.chunk.js.map",
+    "254.59100202.chunk.js.map": "/goit-react-hw-05-movies/static/js/254.59100202.chunk.js.map",
+    "800.fe577d52.chunk.js.map": "/goit-react-hw-05-movies/static/js/800.fe577d52.chunk.js.map",
+    "903.f5bc0004.chunk.js.map": "/goit-react-hw-05-movies/static/js/903.f5bc0004.chunk.js.map",
+    "279.2c004ea1.chunk.js.map": "/goit-react-hw-05-movies/static/js/279.2c004ea1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.1c68a167.js"
+    "static/css/main.9cf20676.css",
+    "static/js/main.d386973b.js"
   ]
 }
