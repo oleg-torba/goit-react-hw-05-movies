@@ -13,3 +13,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.moviesImg {
+  display: block;
+  width: 400px;
+  height: 450px;
+}
+
+.mainBlock {
+  display: flex;
+}
