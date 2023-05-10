@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
 import { FetchPopular } from 'Services/FetchPopular';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+
 
 const Home = () => {
   const [movies, setMovies] = useState([]);
+  const location = useLocation();
   useEffect(() => {
     try {
       const fetch = FetchPopular();
@@ -20,10 +22,11 @@ const Home = () => {
       <div>
         {movies.map(item => {
           return (
-            <Link>
-              {' '}
-              <li key={item.id}>{item.title}</li>
-            </Link>
+            
+              <li key={item.id}>
+                <Link to={`movies/${item.id}`} state={{from: location}}>{item.title}
+                             </Link></li>
+           
           );
         })}
       </div>

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, Suspense } from 'react';
 import FetchDetails from 'Services/FetchDetails';
 import { useParams, useLocation, Outlet } from 'react-router-dom';
 import { Link } from 'react-router-dom';
@@ -49,7 +49,9 @@ const MovieDetails = () => {
         </ul>
       </div>
 
-      <Outlet />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Outlet />
+        </Suspense>
     </>
   );
 };
