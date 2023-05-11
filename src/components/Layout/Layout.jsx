@@ -6,16 +6,19 @@ export const Layout = () => {
     <div>
       <header>
         <nav>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/movies">Movies</NavLink>
+          <NavLink className="nav" to="/">
+            Home
+          </NavLink>
+          <NavLink className="nav" to="/movies">
+            Movies
+          </NavLink>
         </nav>
       </header>
 
       <main>
         <Suspense fallback={<div>Loading...</div>}>
-        <Outlet />
+          <Outlet />
         </Suspense>
-       
       </main>
     </div>
   );

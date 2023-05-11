@@ -10,25 +10,24 @@ function Cast() {
       setActors(res.cast);
     });
   }, [movieId]);
-  console.log(actors);
   return (
-    <div>
+    <ul className="actors">
       {actors.map(actor => {
         return (
-          <ul>
-            <li key={actor.id}>
+          
+            <li className='actorsList' key={actor.id}>
               <h3>{actor.name}</h3>
               <img
-                className="moviesImg"
+                className="actorImg"
                 src={'https://image.tmdb.org/t/p/w500' + actor.profile_path}
                 alt="actor"
               />
               <p>Character: {actor.character}</p>
             </li>
-          </ul>
+         
         );
       })}
-    </div>
+    </ul>
   );
 }
 
